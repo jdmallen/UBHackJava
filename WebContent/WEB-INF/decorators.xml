@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators>
+    <excludes>
+		<pattern>**ajax=true**</pattern>
+		<pattern>**print=true</pattern>
+	</excludes>
+	<decorator name="main" page="fluid.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
