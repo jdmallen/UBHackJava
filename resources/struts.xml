@@ -5,13 +5,16 @@
 >
 
 <struts>
+    <constant name="struts.enable.DynamicMethodInvocation"
+        value="false" />
 	<constant name="struts.devMode" value="true" />
 	<constant name="struts.convention.action.suffix" value="Controller" />
 	<constant name="struts.convention.action.mapAllMatches" value="true" />
 	<constant name="struts.convention.default.parent.package"
-		value="rest-default" />
+		value="com.jdmallen.ambutag.actions" />
 	<constant name="struts.custom.i18n.resources" value="global" />
 	<constant name="struts.convention.result.path" value="/pages/" />
-
 	<constant name="struts.freemarker.templatesCache" value="true" />
+	
+    
 </struts>

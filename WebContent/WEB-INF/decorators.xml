@@ -4,7 +4,7 @@
 		<pattern>**ajax=true**</pattern>
 		<pattern>**print=true</pattern>
 	</excludes>
-	<decorator name="main" page="fluid.jsp">
+	<decorator name="main" page="/decorators/fixed.jsp">
 		<pattern>/*</pattern>
 	</decorator>
 </decorators>
